@@ -1,5 +1,29 @@
 # @com.matteoveroni/math
 
+## 2.5.0
+
+### Minor Changes
+
+- test 3
+
+## 2.4.0
+
+### Minor Changes
+
+- prova2
+
+## 2.3.0
+
+### Minor Changes
+
+- prova
+
+## 2.2.0
+
+### Minor Changes
+
+- another test
+
 ## 2.1.0
 
 ### Minor Changes

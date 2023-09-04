@@ -11,10 +11,10 @@
     "dev": "vitest",
     "test": "vitest run",
     "check": "tsc && vitest run",
-    "lint": "tsc"
-  },
-  "publishConfig": {
-    "registry": "http://rebirth-project.it:4873/"
+    "lint": "tsc",
+    "package-greeter": "cd packages/greeter && pnpm package && cd ../../",
+    "package-math": "cd packages/math && pnpm package && cd ../../",
+    "release": "pnpm package-greeter && pnpm package-math && pnpm changeset && pnpm changeset version && pnpm changeset publish && echo \"REMEMBER TO COMMIT THE CHANGES!\""
   },
   "keywords": [],
   "author": "it.rebirthproject",

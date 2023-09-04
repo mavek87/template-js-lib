@@ -1,6 +1,6 @@
 {
   "name": "@com.matteoveroni/greet",
-  "version": "2.2.0",
+  "version": "2.6.0",
   "description": "Greet utility library",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -10,15 +10,16 @@
     "test": "vitest run",
     "lint": "tsc",
     "clean": "rm -rf ./dist",
-    "check": "pnpm lint && pnpm test",
-    "build": "tsup index.ts --format cjs,esm --dts",
-    "checkAndBuild": "pnpm check && pnpm build"
+    "check": "tsc && pnpm test",
+    "minify": "esbuild ./dist/index.mjs --minify --outfile=./dist/index.mjs --allow-overwrite --platform=neutral && esbuild ./dist/index.js --minify --outfile=./dist/index.js --allow-overwrite --platform=neutral",
+    "build": "pnpm clean && tsup index.ts --format cjs,esm --dts",
+    "package": "pnpm check && pnpm build && pnpm minify"
   },
   "keywords": [],
   "author": "com.matteoveroni",
   "license": "ISC",
   "devDependencies": {
-    "@changesets/cli": "^2.26.2",
+    "esbuild": "^0.19.2",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
     "vitest": "^0.34.3"
