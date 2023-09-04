@@ -26,6 +26,10 @@ https://www.youtube.com/watch?v=vO80X5zM8_Y
 - ```pnpm changeset```
 - ```pnpm changeset version```
 
+### Using Vitest with Jest-DOM and React Testing Library
+
+https://www.youtube.com/watch?v=G-4zgIPsjkU
+
 ### Nice overview
 
 https://github.com/lund0n/pnpm-changesets-tutorial

@@ -1,5 +1,17 @@
 # @com.matteoveroni/math
 
+## 2.8.1
+
+### Patch Changes
+
+- fix version test
+
+## 2.8.0
+
+### Minor Changes
+
+- test 111
+
 ## 2.7.0
 
 ### Minor Changes

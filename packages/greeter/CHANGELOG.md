@@ -1,5 +1,17 @@
 # @com.matteoveroni/greet
 
+## 2.9.1
+
+### Patch Changes
+
+- fix version test
+
+## 2.9.0
+
+### Minor Changes
+
+- test 111
+
 ## 2.8.0
 
 ### Minor Changes

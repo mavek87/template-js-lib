@@ -1,5 +1,5 @@
 {
-  "name": "@it.rebirthproject/template-js-lib",
+  "name": "@com.matteoveroni/template-js-lib",
   "version": "0.0.0",
   "description": "",
   "private": true,
@@ -17,9 +17,7 @@
     "package-math": "cd packages/math && pnpm package && cd ../../",
     "release": "pnpm package-greeter && pnpm package-math && pnpm changeset && pnpm changeset version && pnpm changeset publish && echo \"REMEMBER TO PUSH THE CHANGES IN GIT!\""
   },
-  "keywords": [],
-  "author": "it.rebirthproject",
-  "license": "ISC",
+  "author": "com.matteoveroni",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "typescript": "^5.2.2",
