@@ -12,6 +12,7 @@
     "test": "vitest run",
     "check": "tsc && vitest run",
     "lint": "tsc",
+    "rebirth-login": "pnpm login --registry=http://rebirth-project.it:4873 --auth-type=legacy",
     "package-greeter": "cd packages/greeter && pnpm package && cd ../../",
     "package-math": "cd packages/math && pnpm package && cd ../../",
     "release": "pnpm package-greeter && pnpm package-math && pnpm changeset && pnpm changeset version && pnpm changeset publish && echo \"REMEMBER TO PUSH THE CHANGES IN GIT!\""
