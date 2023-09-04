@@ -30,4 +30,7 @@ https://www.youtube.com/watch?v=vO80X5zM8_Y
 
 https://github.com/lund0n/pnpm-changesets-tutorial
 
+### Publish
 
+- ```pnpm login --registry=http://rebirth-project.it:4873 --auth-type=legacy```
+- ```pnpm changeset publish```

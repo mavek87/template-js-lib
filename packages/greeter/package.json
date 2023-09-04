@@ -2,7 +2,6 @@
   "name": "@com.matteoveroni/greet",
   "version": "1.0.0",
   "description": "Greet utility library",
-  "private": true,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
