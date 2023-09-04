@@ -1,6 +1,6 @@
 - ```pnpm init```
 - ```pnpm install typescrypt -D```
-- ```pnpm tsc --init```, remove comment in 'tsconfig.json' for parameter ```"noEmit": true``` and for ```"noUncheckedIndexedAccess": true```
+- ```pnpm tsc --init```, remove comment in 'tsconfig.json' for parameter ```"noEmit": true``` and for ```"noUncheckedIndexedAccess": true```, and add ```"forceConsistentCasingInFileNames": false``` and ```"esModuleInterop": true``` and ```skipLibCheck```
 - add **"lint": "tsc" in package.json scripts
 - ```pnpm add -D tsup```
 - ```pnpm add -D vitest``` add ```"scripts": {
@@ -23,5 +23,11 @@ https://www.youtube.com/watch?v=vO80X5zM8_Y
 
 - ```pnpm add -Dw @changesets/cli```
 - ```pnpm changeset init```
+- ```pnpm changeset```
+- ```pnpm changeset version```
+
+### Nice overview
+
+https://github.com/lund0n/pnpm-changesets-tutorial
 
 

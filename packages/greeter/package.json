@@ -1,6 +1,6 @@
 {
   "name": "@com.matteoveroni/greet",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Greet utility library",
   "private": true,
   "main": "./dist/index.js",
@@ -9,8 +9,11 @@
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
+    "lint": "tsc",
+    "clean": "rm -rf ./dist",
+    "check": "pnpm lint && pnpm test",
     "build": "tsup index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "checkAndBuild": "pnpm check && pnpm build"
   },
   "keywords": [],
   "author": "com.matteoveroni",
@@ -20,5 +23,8 @@
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
     "vitest": "^0.34.3"
+  },
+  "publishConfig": {
+    "registry": "http://rebirth-project.it:4873/"
   }
 }
