@@ -14,7 +14,7 @@
     "lint": "tsc",
     "package-greeter": "cd packages/greeter && pnpm package && cd ../../",
     "package-math": "cd packages/math && pnpm package && cd ../../",
-    "release": "pnpm package-greeter && pnpm package-math && pnpm changeset && pnpm changeset version && pnpm changeset publish && echo \"REMEMBER TO COMMIT THE CHANGES!\""
+    "release": "pnpm package-greeter && pnpm package-math && pnpm changeset && pnpm changeset version && pnpm changeset publish && echo \"REMEMBER TO PUSH THE CHANGES IN GIT!\""
   },
   "keywords": [],
   "author": "it.rebirthproject",
