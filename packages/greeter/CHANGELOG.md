@@ -1,5 +1,11 @@
 # @com.matteoveroni/greet
 
+## 2.8.0
+
+### Minor Changes
+
+- a test
+
 ## 2.7.0
 
 ### Minor Changes

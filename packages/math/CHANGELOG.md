@@ -1,5 +1,11 @@
 # @com.matteoveroni/math
 
+## 2.7.0
+
+### Minor Changes
+
+- a test
+
 ## 2.6.0
 
 ### Minor Changes
